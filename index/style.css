@@ -1,11 +1,81 @@
-
+.corpo {
+   margin: 5px;
+   background: #dad6d6;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 1%;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.cabecalho {
+   display: flex;
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+}
 .iconDetails {
-   position: relative;
-   margin-left: 2%;
    height:20px;
    width:20px;	
    } 
 
-h1 {
+.perfil {
+      margin: 2%;
+      height:200px;
+      width:200px;
+      border-style: dashed;	
+      border: #000000;
+}
+.info {
+   height: 200px;
+   width: 500px;
+   justify-content: center;
+   margin-left: 5%;
+   margin-top: 2%;
+}
+.tecnologias {
+   margin: 25px;
+   display: flex;
+   justify-content: center;
+}
+
+p.item {
+
+  margin: 10px;
+  padding-left:  10px;
+
+ /*  border-style: groove;
+   border-color: black;
+   border-right-style: none;
+   border-top-style:none;
+   border-bottom-style:none; */
+
+}
+.itemImg{ 
+   padding-right: 5px;
+   height:20px;
+   width: 20px;
+}
+.experiencias {
+   margin: 3%;
+   padding-top: 20px;
    
+}
+
+.formacao {
+   margin: 3%;
+   padding-top: 20px;
+   border-style: groove;
+   border-color: black;
+   border-right-style: none;
+   border-left-style:none;
+   border-bottom-style:none;
+}
+
+.idiomas {
+   margin: 3%;
+   padding-top: 20px;
+   border-style: groove;
+   border-color: black;
+   border-right-style: none;
+   border-left-style:none;
+   border-bottom-style:none;
 }

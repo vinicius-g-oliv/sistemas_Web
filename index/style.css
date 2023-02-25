@@ -1,5 +1,6 @@
 .corpo {
-   margin: 5px;
+   width: 50%;
+   margin: 30px;
    background: #dad6d6;
    border-width: 2px;
    border-style: solid;
@@ -10,7 +11,6 @@
 .cabecalho {
    display: flex;
    text-align: justify;
-   font-family: Arial, Helvetica, sans-serif;
 }
 .iconDetails {
    height:20px;
@@ -41,18 +41,12 @@ p.item {
 
   margin: 10px;
   padding-left:  10px;
-
- /*  border-style: groove;
-   border-color: black;
-   border-right-style: none;
-   border-top-style:none;
-   border-bottom-style:none; */
-
+ 
 }
 .itemImg{ 
    padding-right: 5px;
-   height:20px;
-   width: 20px;
+   height:30px;
+   width: 30px;
 }
 .experiencias {
    margin: 3%;
@@ -60,7 +54,7 @@ p.item {
    
 }
 
-.formacao {
+.formacao , .idiomas{
    margin: 3%;
    padding-top: 20px;
    border-style: groove;
@@ -70,12 +64,12 @@ p.item {
    border-bottom-style:none;
 }
 
-.idiomas {
-   margin: 3%;
-   padding-top: 20px;
-   border-style: groove;
-   border-color: black;
-   border-right-style: none;
-   border-left-style:none;
-   border-bottom-style:none;
-}
+
+
+.languege  table,td, th {
+   border:1px solid black;
+   border-collapse: collapse;
+   justify-content: center;
+   text-align: center;
+   padding: 5px;
+ }
